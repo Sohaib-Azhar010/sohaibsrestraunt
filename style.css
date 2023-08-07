@@ -4,15 +4,25 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
   body {
     height: 100%;
-    width: 350%;
+    width: 100%;
+    position: fixed;
   }
-  .mainimage {
-    height: 10%;
-    /* width: 10%; */
+
+  /* .main{
+    display:inline;
+    justify-content:center;
   }
+   .mainimage{
+    height: 200px;
+    width: 200px;
+    margin-left: 0;
+    margin-top: 2%; 
+
+   }
+  */
 }
 
 .navbar-brand b {
